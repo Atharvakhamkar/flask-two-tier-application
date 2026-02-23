@@ -23,7 +23,7 @@ services:
       start_period: 60s
 
   flask-app:
-    image: khamkaratharva07/flaskapp:latest
+    image: khamkaratharva07/wo-tier-flask-app:latest:latest
     container_name: flask-app
     ports:
       - "5000:5000"
