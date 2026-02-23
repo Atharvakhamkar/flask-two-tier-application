@@ -23,7 +23,7 @@ services:
       start_period: 60s
 
   flask-app:
-    image: khamkaratharva07/flaskapp
+    image: khamkaratharva07/flaskapp:latest
     container_name: flask-app
     ports:
       - "5000:5000"
